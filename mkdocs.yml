@@ -1,0 +1,33 @@
+site_name: NewSpace NTN & D2D Atlas
+repo_url: https://github.com/kolundzic/newspace-ntn-d2d-atlas
+docs_dir: site/docs
+theme:
+  name: material
+nav:
+  - Home: index.md
+  - Foundations:
+      - New Space Overview: 01_foundations/new-space-overview.md
+      - NTN Context: 01_foundations/ntn-3gpp-context.md
+  - Orbit & Radio:
+      - Walker Models: 02_orbit-and-radio/walker-delta-star.md
+      - Inclination vs Altitude: 02_orbit-and-radio/inclination-altitude-tradeoffs.md
+      - Link Budget Primer: 02_orbit-and-radio/link-budget-primer.md
+  - D2D / DTC:
+      - Direct-to-Device Models: 03_d2d-and-dtc/direct-to-device-models.md
+      - Handset Assumptions: 03_d2d-and-dtc/handset-assumptions.md
+      - Ecosystem Overview: 03_d2d-and-dtc/starlink-ast-lynk-apple.md
+  - Latency & Handoff:
+      - RTT & Propagation: 04_latency-and-handoff/rtt-propagation.md
+      - Handoff Frequency: 04_latency-and-handoff/handoff-frequency.md
+      - Availability Models: 04_latency-and-handoff/availability-models.md
+  - Ops & Trust:
+      - SSA & Conjunction: 05_ops-and-trust/ssa-and-conjunction.md
+      - Failure Modes: 05_ops-and-trust/failure-modes.md
+      - Evidence Schema: 05_ops-and-trust/evidence-schema.md
+      - Ops Playbook: 05_ops-and-trust/ops-playbook.md
+  - Use-Cases:
+      - Director Over Satellite: 06_use-cases/director-over-satellite.md
+  - Project Bridges:
+      - Trust Seal: 07_project-bridges/trust-seal.md
+      - Evidence Badge: 07_project-bridges/evidence-badge.md
+      - Public Authority: 07_project-bridges/public-authority.md
